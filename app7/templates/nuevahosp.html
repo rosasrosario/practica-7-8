@@ -1,0 +1,7 @@
+<h1>Ingresa una nueva hospitalización</h1>
+{{msg}}
+<form action="/nueva/" method = "POST">
+{% csrf_token %}
+{{form}}
+<button>Dar de alta</button>
+</form>
